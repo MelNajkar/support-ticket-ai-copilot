@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment/secrets
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Raw datasets
+data/raw/*
+!data/raw/.gitkeep
+# Processed datasets
+data/processed/*
+!data/processed/.gitkeep
