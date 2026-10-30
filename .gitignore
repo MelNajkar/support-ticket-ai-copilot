@@ -21,3 +21,7 @@ data/raw/*
 # Processed datasets
 data/processed/*
 !data/processed/.gitkeep
+
+# Trained model artifacts
+models/*.joblib
+!models/.gitkeep
